@@ -19,7 +19,7 @@ interface Props {
                     <img src="./iconpizza.svg" alt='Лого' width={35} height={35}/>
                     <div className='text-center'>
                         <h1 className='text-2xl uppercase font-black'>next pizza</h1>
-                        <p className='text-base'>вкуснее уже некуда</p>
+                        <p className='text-base text-gray-400'>вкуснее уже некуда</p>
                     </div>
                 </div>
                 {/* Правый блок */}
@@ -34,4 +34,4 @@ interface Props {
             </Container>
         </header>
         );
-    }
+    };
