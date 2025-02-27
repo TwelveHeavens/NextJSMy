@@ -10,6 +10,9 @@ export default function Home() {
       <Title text='Все пиццы' size='lg' className="font-bold"/>
     </Container>
     <TopBar/>
+    <Container>
+      <Title text='Фильтрация' size="sm" className="font-bold"/>
+    </Container>
     </>
   );
 }
