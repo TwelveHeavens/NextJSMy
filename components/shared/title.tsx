@@ -26,7 +26,7 @@ export const Title: React.FC<Props> = ({ text, size = 'sm', className }) => {
         lg: 'text-[32px]',
         xl: 'text-[40px]',
         '2xl':'text-[48px]',
-    } as const;
+    } as const;                         
 
     return React.createElement(
         mapTagBySize[size],
