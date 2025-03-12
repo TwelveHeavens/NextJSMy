@@ -18,7 +18,7 @@ export const Filters: React.FC<Props> = ({ className }) => {
                 <Title text="Цена от и до:" size="xs" className="font-bold"/>
                 <div className="flex">
                     <input type="number" placeholder="0" min={0} max={5000} defaultValue={0}/>
-                    <input type="number" placeholder="5000" min={100} max={4990}/>
+                    <input type="number" placeholder="5000" min={100} max={5000}/>
                 </div>
             </div>
         </div>
